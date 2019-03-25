@@ -1,0 +1,43 @@
+#block3 {
+	background-color: #ffffff;
+	color: #000000;
+}
+#block3 h4 {
+	margin: 0;
+	font-family: TTNorms-Bold;
+	font-size: 30px;
+	line-height: 36px;
+	margin-top: 105px;	
+	margin-bottom: 27px;
+}
+
+#block3 ul {
+	margin: 0;
+	padding: 0;
+}
+#block3 li {
+	font-family: TTNorms-Medium;
+	font-size: 18px;
+	list-style-type: none;
+	line-height: 48px;
+}
+#block3 i {
+	color: #15b0be;
+	font-size: 40px;
+	padding-right: 20px;
+}
+#block3 span {
+	color: #15b0be;
+	font-family: TTNorms-Bold;
+	font-size: 30px;
+}
+.mobileShow {
+	display: none;
+}
+
+@media (max-width: 600px) {
+	.mobileShow {
+		display: inline-block;
+		width: 30px;
+	}
+}

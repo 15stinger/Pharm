@@ -1,0 +1,221 @@
+#block2 {
+	background-color: #16b8c6;
+	position: relative;
+	z-index: 1;
+	min-height: 653px;
+	border-top: 1px solid #16b8c6;
+}
+#block2 h5 {
+	font-size: 30px;
+	color: #ffffff;
+	margin-bottom: 31px;
+}
+#block2 p {
+	font-size: 14px;
+	font-family: TTNorms-Medium;
+	margin-left: 38px;
+}
+
+#cardbox {
+	margin: 113px 0 0 0;
+	padding-left: 413px;
+	display: flex;
+	display: -webkit-flex;
+	overflow-x: auto;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+#cardbox::-webkit-scrollbar {
+	display: none;
+}
+
+.card {
+	margin-right: 24px;
+	min-height: 100%;
+	min-width: 348px;
+	display: inline-block;
+	font-family: TTNorms-Medium;
+	font-size: 14px;
+	color: #000000;
+}
+.card h6 {
+	font-family: TTNorms-Bold;
+	font-size: 14px;
+	padding-top: 32px;
+	padding-left: 38px;
+}
+.card .empty {
+	color: #16b8c6 !important;
+}
+.card ul {
+	padding: 21px 0 0 0;
+	margin: 0;
+}
+.card li {
+	line-height: 24px;
+	list-style-type: none;
+}
+/* .card:last-child {
+	padding-left: calc((100% - 1094px)/2);
+} */
+.card .marker {
+	width: 3.5px;
+	height: 3.5px;
+	border: solid 1.5px #16b8c6;
+	border-radius: 3.5px;
+	background-color: #ffffff;
+	display: inline-block;
+	margin-left: 23px;
+	margin-right: 8px;
+}
+
+
+.card .card-content {
+	min-height: 336px;
+}
+.card.square .card-content {
+	background-color: #ffffff;	
+}
+.card.square .card-content ul {
+	background-color: #ffffff;
+}
+
+
+.card.rect .card-content {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.card.rect .card-content .half {
+	background-color: #ffffff;
+	height: 156px;
+	width: 100%;
+}
+.card.rect .card-content .half-second {
+	margin-top: 24px;
+}
+.active.square .card-content {
+	
+}
+.rect .half.active {
+	
+}
+.card-button-div {
+	display: none;
+}
+.card-button {
+	display: none;
+}
+#block2 .card-button p{
+	display: none;
+}
+.active + .card-button-div {
+	display: inline-block;
+	width: 100%;
+	background-color: white;
+}
+.active + .card-button-div .card-button {
+	display: inline-block;
+	margin: 0 0 27px 111px;
+}
+#block2 .active + .card-button-div .card-button p{
+	background-color: #0cb5c3;
+	color: #ffffff;
+	font-family: TTNorms-Bold;
+	font-size: 14px;
+	padding: 13px 24px 13px 24px;
+	display: inline-block;
+	margin: 0;
+	display: block;
+}
+.card-button {
+	cursor: pointer;
+}
+
+#block2>img {
+	position: absolute;
+	top: 50px;
+}
+#block2>img:first-child {
+	left: 0;
+}
+#block2>img:last-child {
+	right: 0;
+}
+
+
+
+
+@media (min-width: 2000px) {
+	#cardbox {
+		padding-left: calc((100% - 1094px)/2);
+	}
+}
+
+
+@media (max-width: 1900px) {
+	#cardbox {
+		padding-left: calc((100% - 1094px)/2);
+	}
+}
+@media (max-width: 1800px) {
+	#cardbox {
+		
+	}
+}
+@media (max-width: 1700px) {
+	#cardbox {
+		
+	}
+}
+@media (max-width: 1610px) {
+	#cardbox {
+		
+	}
+}
+
+@media (max-width: 1500px) {
+	#cardbox {
+		
+	}
+}
+
+@media (max-width: 1370px) {
+	#cardbox {
+		padding-left: 10%;
+	}
+}
+
+@media (max-width: 1000px) {
+	#block2 {
+		min-height: 753px;
+	}
+	#cardbox .card {
+		min-width: 50%;
+	}
+
+}
+
+@media (max-width: 811px) {
+	#cardbox .card {
+		min-width: 60%;
+	}
+	.mobileHide {
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	#block2 {
+		min-height: 630px;
+	}
+	#cardbox .card {
+		min-width: 80%;
+	}
+	.card li {
+		font-size: 12px;
+	}
+	#block2 p {
+		font-size: 13px;
+	}
+}

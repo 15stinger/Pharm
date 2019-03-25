@@ -1,0 +1,43 @@
+#block8 {
+	position: absolute;
+	background-color: #16b8c6;
+	height: 720px;
+	min-width: 820px;
+	padding: 0 144px;
+	margin-left: calc((100% - 1094px)/2 - 10px);
+	top: 35px;
+	z-index: 2;
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.5s linear;
+}
+#block8.reg2 {
+	top: 730px;
+}
+
+@media (max-width: 1370px) {
+	#block8 {
+		margin-left: 7%;
+	}
+}
+@media (max-width: 1365px) {
+	#block8 {
+		
+	}
+}
+@media (max-width: 1200px) {
+	#block8 {
+		max-width: 82%;
+		min-width: 81%;
+	}
+}
+@media (max-width: 1000px) {
+	#block8 {
+		padding: 0 10px;
+		margin-left: 8%;
+	}
+	#block8.reg h5 {
+		padding-top: 10px;
+	}
+}

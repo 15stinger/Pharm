@@ -1,0 +1,147 @@
+#block5 {
+	margin: 0;
+	padding-left: 413px;
+	padding-right: 150px;
+}
+#block5 h5 {
+	font-family: TTNorms-Bold;
+	font-size: 30px;
+	line-height: 36px;
+	margin-top: 91px;
+	color: #000000;
+}
+#block5 p {
+	font-family: TTNorms-Medium;
+	font-size: 18px;
+	color: #000000;
+	margin: 16px 0 0 0;
+	text-align: center;
+}
+#block5 img {
+	
+}
+
+#steps {
+	margin: 25px 0 97px 105px;
+	display: flex;
+	flex-wrap: wrap;
+}
+#steps .step {
+	
+}
+#steps .step .imgw {
+	min-height: 223px;
+	text-align: center;
+}
+#steps .step .wrong img {
+	margin-top: 43px;
+}
+#steps .arrow.last {
+	margin-right: 30px;
+}
+#steps .arrow {
+	margin: 90px 53px 0 37px;
+}
+#steps .arrow.new {
+	margin-left: 55px;
+}
+
+
+
+
+@media (min-width: 2000px) {
+  #block5 {
+    	padding-left: calc((100% - 1094px)/2);
+  }
+  #block5 .arrow.new {
+  	display: none;
+  }
+}
+@media (max-width: 1900px) {
+	#block5 {
+		padding-left: calc((100% - 1094px)/2);
+		padding-right: 10%;
+	}
+}
+@media (max-width: 1800px) {
+	#block5 {
+		padding-right: 7%;
+	}
+}
+
+@media (max-width: 1610px) {
+	#block5 {
+		padding-right: 5%;
+	}
+}
+
+@media (max-width: 1500px) {
+	#block5 {		
+		padding-right: 2%;
+	}
+}
+
+@media (max-width: 1370px) {
+	#block5 {
+		padding-left: 10%;
+	}
+}
+
+@media (max-width: 1365px) {
+	#steps .step {
+			max-width: 32%;
+			margin-bottom: 55px;
+	}
+	#steps .arrow.new {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 970px) and (min-width: 812px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	#block5 {
+		padding-left: 10%;
+	}
+	#block5 h5 {
+		font-size: 72px;
+		line-height: 72px;
+	}
+	#block5 img {
+		width: 380px;
+	}
+	#block5 p {
+		font-size: 36px;
+	}
+	#steps {
+		margin-left: 0;
+	}
+	#steps .step {
+		min-width: 93%;
+	}
+	#steps .arrow {
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	#block5 h5 {
+		font-size: 36px;
+		line-height: 36px;
+	}
+	#block5 img {
+		width: 200px;
+	}
+	#block5 p {
+		font-size: 18px;
+	}
+	#steps .step .imgw {
+		min-height: 200px;
+	}
+	#steps {
+		margin-bottom: 40px;
+	}
+}
