@@ -12,24 +12,38 @@
 	opacity: 0;
 	transition: opacity 0.5s linear;
 }
-#block8.reg2 {
-	top: 730px;
-}
 
 @media (max-width: 1370px) {
 	#block8 {
-		margin-left: 7%;
-	}
+		margin-left: 4%;
+	}	
 }
 @media (max-width: 1365px) {
+	#block8 h5 {
+		margin-bottom: 20px;
+		padding-top: 34px;
+	}
+	.reg input[type="text"] {
+		height: 48px;
+	}
+	#block8 textarea {
+		height: 4em;
+	}
 	#block8 {
-		
+		height: 580px;
 	}
 }
+
+
 @media (max-width: 1200px) {
 	#block8 {
-		max-width: 82%;
-		min-width: 81%;
+		max-width: 78%;
+		min-width: 78%;
+		height: 515px;
+		padding: 0 7%;
+	}
+	#block8 textarea {
+		height: 3em;
 	}
 }
 @media (max-width: 1000px) {
@@ -40,4 +54,19 @@
 	#block8.reg h5 {
 		padding-top: 10px;
 	}
+	.reg input[type="text"] {
+		height: 38px;
+	}
+}
+
+
+@media (max-width: 600px) {
+	#block8 {
+		height: 600px;
+		max-width: 85%;
+		min-width: 85%;
+		padding: 0 10px;
+		margin-left: 4%;
+	}
+
 }

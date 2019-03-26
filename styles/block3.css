@@ -15,29 +15,31 @@
 	margin: 0;
 	padding: 0;
 }
-#block3 li {
+#block3 ul li {
+	list-style-type: none;
+	background: url(../images/check.png) no-repeat left 10%;
+	line-height: 48px;
+	padding-left: 40px;
+}
+#block3 p {
 	font-family: TTNorms-Medium;
 	font-size: 18px;
-	list-style-type: none;
-	line-height: 48px;
+	padding-left: 20px;
+	margin: 0;
 }
 #block3 i {
 	color: #15b0be;
 	font-size: 40px;
-	padding-right: 20px;
+	margin-right: 20px;
 }
 #block3 span {
 	color: #15b0be;
 	font-family: TTNorms-Bold;
 	font-size: 30px;
-}
-.mobileShow {
-	display: none;
-}
+	text-decoration: none;
+} 
 
-@media (max-width: 600px) {
-	.mobileShow {
-		display: inline-block;
-		width: 30px;
-	}
+
+@media (max-width: 1000px) {
+	line-height: 30px;
 }

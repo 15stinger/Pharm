@@ -38,6 +38,9 @@
 	font-size: 14px;
 	color: #000000;
 }
+.card:last-child {
+	padding-right: calc((100% - 1094px)/2);
+}
 .card h6 {
 	font-family: TTNorms-Bold;
 	font-size: 14px;
@@ -94,12 +97,7 @@
 .card.rect .card-content .half-second {
 	margin-top: 24px;
 }
-.active.square .card-content {
-	
-}
-.rect .half.active {
-	
-}
+
 .card-button-div {
 	display: none;
 }
@@ -144,6 +142,10 @@
 }
 
 
+.mobileShow {
+	display: none;
+}
+
 
 
 @media (min-width: 2000px) {
@@ -184,11 +186,14 @@
 	#cardbox {
 		padding-left: 10%;
 	}
+	.card:last-child {
+		padding-right: 10%;
+	}
 }
 
 @media (max-width: 1000px) {
 	#block2 {
-		min-height: 753px;
+		min-height: 653px;
 	}
 	#cardbox .card {
 		min-width: 50%;
@@ -207,7 +212,7 @@
 
 @media (max-width: 600px) {
 	#block2 {
-		min-height: 630px;
+		min-height: 530px;
 	}
 	#cardbox .card {
 		min-width: 80%;
@@ -217,5 +222,26 @@
 	}
 	#block2 p {
 		font-size: 13px;
+	}
+	.mobileShow {
+		display: block;
+	}
+}
+
+
+
+@media (max-width: 321px) {
+	#cardbox .card {
+		min-width: 92%;
+	}
+	#block2 h5 {
+		font-size: 29px;
+	}
+	#cardbox {
+		padding-bottom: 20px;
+		margin-top: 30px;
+	}
+	#block2 {
+		padding-bottom: 20px;
 	}
 }

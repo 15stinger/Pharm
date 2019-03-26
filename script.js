@@ -1,9 +1,9 @@
 $(document).ready(begAnimation);
 
-$(window).resize(function() {
+/*$(window).resize(function() {
 	console.log("resize");
 	location.reload(false);
-});
+});*/
 
 //Начальная анимация 
 var begAnimation = setTimeout(function() {
@@ -43,7 +43,6 @@ $(".card-button-div").click(function() {
 $(function() {
    $("#block1, #block2, #block8").mousewheel(function(evt, del) {
       if (getComputedStyle(reg).display == "block") {
-      	$("::-webkit-scrollbar").css("display", "none");
       	return false;
       }
    });

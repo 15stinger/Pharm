@@ -80,8 +80,8 @@
                 // В Опере значение wheelDelta такое же, но с противоположным знаком
                 if (window.opera) delta = -delta;
             // В реализации Gecko получим свойство detail
-            } else if (event.detail) {
-                delta = -event.detail / 3;
+            } else if (event.deltaY) {
+                delta = -event.deltaY / 3;
             }
             // Запрещаем обработку события браузером по умолчанию
             if (event.preventDefault)  event.preventDefault();

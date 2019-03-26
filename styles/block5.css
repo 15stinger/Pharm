@@ -46,7 +46,9 @@
 	margin-left: 55px;
 }
 
-
+#block5 a {
+	color: #000000;
+}
 
 
 @media (min-width: 2000px) {
